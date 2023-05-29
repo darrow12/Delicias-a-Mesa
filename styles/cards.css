@@ -1,0 +1,60 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 34px;
+
+  width: 1285px;
+  height: 554.68px;
+}
+
+/* aaaaa */
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 20px; /* Espaçamento entre os cards */
+}
+
+.card:last-child {
+  margin-right: 0; /* Remove o espaçamento no último card */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.card-content p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.ver-mais-btn {
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+/* Cabeçalho */
+
+.cabecalho {
+  background: white;
+  height: 113px;
+  width: 100%;
+}
+
+.cabecalho__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  gap: 194px;
+}
+
+.cabecalho__navegacao ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  font-weight: 500;
+}
+
+.linha {
+  width: 100%;
+  height: 30px;
+  background: #FFDB63;
+}
+
+input {
+  width: 258px;
+  height: 40px;
+  border-radius: 22px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  background: #F5F2F2;
+}
