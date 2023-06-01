@@ -31,3 +31,21 @@
   font-weight: bold;
   margin: 0;
 }
+
+/* Imagens das páginas */
+
+.waffles {
+  background-image: url('./../images/waffles.png');
+}
+
+.chocolate-quente {
+  background-image: url('./../images/chocolate-quente.png');
+}
+
+.panqueca {
+  background-image: url('./../images/panqueca.png');
+}
+
+.receitas {
+  background-image: url('./../images/cafe-da-manha.png');
+}

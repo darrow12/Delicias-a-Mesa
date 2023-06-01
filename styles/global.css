@@ -9,3 +9,8 @@ body {
   font-family: 'Inter', sans-serif;
   color: #2C2B2B;
 }
+
+a {
+  color: #2C2B2B;
+  text-decoration: none;
+}

@@ -1,0 +1,31 @@
+.title {
+  padding: 25px;
+  font-size: 20px;
+}
+
+.top {
+  padding-top: 48px;
+}
+
+p {
+  font-weight: 400;
+  color: #2C2B2B;
+}
+
+li, p {
+  font-size: 16px;
+  line-height: 26px;
+  list-style-position: inside;
+  color: #2C2B2B;
+  padding-left: 25px;
+}
+
+p:last-child {
+  margin-bottom: 48px;
+}
+
+.conteudo {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}

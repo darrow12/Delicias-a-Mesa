@@ -1,19 +1,127 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Receita de Chocolate Quente</title>
-  <link rel="stylesheet" href="/styles/global.css">
-  <link rel="shortcut icon" href="/images/cafe.png" type="image/png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receita de Panqueca Americana</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/banner.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/receita.css" />
+    <link rel="shortcut icon" href="/images/cafe.svg" type="image/svg" />
 
-  <!-- Fonte -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  
-</body>
+    <!-- Recursos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-w...bH...g==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <!-- Linha do cabeçalho -->
+    <div class="linha"></div>
+
+    <header class="cabecalho">
+      <!-- Cabeçalho -->
+      <div class="cabecalho__menu">
+
+        <!-- Logo -->
+        <div class="cabecalho__logo">
+          <a href="index.html">
+            <img src="./images/logo.svg" alt="Logotipo" />
+          </a>
+        </div>
+
+        <!-- Menu de navegação -->
+        <nav class="cabecalho__navegacao">
+          <ul>
+            <li class="cabecalho__item"><a href="index.html">Home</a></li>
+            <li class="cabecalho__item"><a href="receitas.html">Receitas</a></li>
+            <li class="cabecalho__item"><a href="sobre.html">Sobre nós</a></li>
+          </ul>
+        </nav>
+
+        <!-- Barra de pesquisa -->
+        <div class="cabecalho__pesquisa">
+          <input type="text" placeholder="Pesquisar" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Banner -->
+      <section class="banner panqueca">
+        <div class="banner-content">
+          <h1>Panqueca Americana</h1>
+        </div>
+      </section>
+
+      <!-- Conteúdo -->
+      <section class="conteudo">
+        <!-- Ingredientes -->
+        <article class="conteudo__ingredientes">
+          <h2 class="title top">Ingredientes</h2>
+          <ul>
+            <li>1 e 1/2 xícaras de farinha de trigo</li>
+            <li>3 colheres de sopa de açúcar</li>
+            <li>1 colher de sopa de fermento em pó</li>
+            <li>1/2 colher de chá de sal</li>
+            <li>1 e 1/4 xícaras de leite</li>
+            <li>1 ovo</li>
+            <li>3 colheres de sopa de manteiga derretida</li>
+            <li>Óleo vegetal (para untar a frigideira)</li>
+            <li>Coberturas a gosto (xarope de bordo, frutas frescas, chantilly, etc.)</li>
+          </ul>
+        </article>
+
+        <!-- Modo de Preparo -->
+        <article class="conteudo__preparo">
+          <h2 class="title">Modo de Preparo</h2>
+          <ol>
+            <li>Em uma tigela grande, misture a farinha, o açúcar, o fermento em pó e o sal.</li>
+            <li>Em outra tigela, bata o leite, o ovo e a manteiga derretida até obter uma mistura homogênea.</li>
+            <li>Despeje a mistura líquida na tigela com os ingredientes secos. Mexa delicadamente com uma colher ou fouet até que os ingredientes estejam apenas combinados. Não misture demais, pois isso pode deixar as panquecas pesadas.</li>
+            <li>Pré-aqueça uma frigideira antiaderente em fogo médio. Unte levemente a frigideira com óleo vegetal.</li>
+            <li>Use cerca de 1/4 de xícara da massa para cada panqueca. Despeje a massa na frigideira quente e espalhe-a ligeiramente para formar uma panqueca redonda.</li>
+            <li>Cozinhe até que pequenas bolhas apareçam na superfície da panqueca e as bordas fiquem levemente douradas. Isso leva cerca de 2-3 minutos.</li>
+            <li>Vire a panqueca com uma espátula e cozinhe por mais 1-2 minutos, ou até que esteja dourada por completo.</li>
+            <li>Transfira a panqueca para um prato e repita o processo com o restante da massa.</li>
+          </ol>
+        </article>
+
+        <!-- Informações Adicionais -->
+        <article class="conteudo__informacoes">
+          <h2 class="title">Informações Adicionais</h2>
+          <p>Acompanhe suas panquecas com suas coberturas favoritas, como xarope de bordo, frutas frescas, chantilly, etc.<br><br>Essa receita rende aproximadamente 8 panquecas médias. Aproveite suas deliciosas panquecas americanas!</p>
+        </article>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+      <section class="footer__container">
+
+        <div class="footer__logo">
+          <a href="index.html">
+            <img src="./images/logo.svg" alt="Logo" width="416" height="56" />
+          </a>
+        </div>
+
+        <div class="footer__redes">
+          <div class="footer__titulo">
+            <h2>Redes sociais do site de receitas originais</h2>
+          </div>
+
+          <section class="footer__icons">
+            <a href="https://www.tudogostoso.com.br/" class="footer__icon" aria-label="Site" title="Site"><i class="ph-bold ph-globe"></i></a>
+            <a href="https://www.youtube.com/user/tudogostoso" class="footer__icon" aria-label="YouTube" title="YouTube"><i class="ph-bold ph-youtube-logo"></i></a>
+            <a href="https://twitter.com/tudo_gostoso" class="footer__icon" aria-label="Twitter" title="Twitter"><i class="ph-bold ph-twitter-logo"></i></a>
+            <a href="https://br.pinterest.com/tudogostoso/" class="footer__icon" aria-label="Pinterest" title="Pinterest"><i class="ph-bold ph-pinterest-logo"></i></a>
+          </section>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
