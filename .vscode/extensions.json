@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "PKief.material-icon-theme",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "glenn2223.live-sass",
+    "miguelsolorio.fluent-icons",
+    "eamodio.gitlens"
+  ]
+}
